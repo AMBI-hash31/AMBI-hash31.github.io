@@ -1,0 +1,29 @@
+*{
+font-family: "Roboto", sans-serif;
+      
+}
+body{
+background-image: url("9_technology.webp");    
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.main {
+    text-align: center;
+    border: 1px solid white;
+    width: 240px;
+    height: 270px;
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    display: flexbox;
+    
+}
+div {
+    padding: 10px;
+    margin: 10px;
+};
+
+h3{
+    font-weight: bold;
+}
