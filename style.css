@@ -1,29 +1,51 @@
-*{
-font-family: "Roboto", sans-serif;
-      
-}
-body{
-background-image: url("9_technology.webp");    
-background-size: cover;
-background-repeat: no-repeat;
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 18px;
+    background-image: url("9_technology.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
-.main {
-    text-align: center;
-    border: 1px solid white;
-    width: 240px;
-    height: 270px;
-    backdrop-filter: blur(3px);
+form {
+    padding: 0 2px 14px 12px;
+    margin: 0 auto;
+    max-width: 200px;
+    min-width: 200px;
+    width: 60vw;
+    backdrop-filter: blur(4px);
+    border: 1px solid cyan;
     border-radius: 12px;
-    display: flexbox;
-    
+    transform: translate(0px,150px);
+    box-shadow:  2px 2px 12px 2px cyan;
 }
-div {
-    padding: 10px;
-    margin: 10px;
-};
 
 h3{
-    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    letter-spacing: 1.25px;
+
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 15px;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: cyan;
+}
+
+#login {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    transform: translate(12vh,0);
+    border-radius: 6px;
 }
